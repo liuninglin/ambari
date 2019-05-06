@@ -1,0 +1,16 @@
+rootProject.name = 'ambari'
+include 'kafka-demo'
+include 'custom-kafka-sink'
+include 'custom-kafka-source'
+include 'spark-mysql-demo'
+include 'spark-sql-demo'
+include 'jdbc-spark-sql'
+
+gradle.ext.jdkVersion = '1.8'
+gradle.ext.scalaVersion = '2.11.8'
+gradle.ext.sparkVersion = '2.3.0'
+gradle.ext.kafkaVersion = '0.9.0.0'
+gradle.ext.hadoopVersion = '2.7.1'
+gradle.ext.flumeVersion = '1.5.2'
+
+

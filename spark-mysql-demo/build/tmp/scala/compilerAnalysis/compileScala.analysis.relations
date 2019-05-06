@@ -1,0 +1,18 @@
+products:
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/build/classes/scala/main/com/johnny/demo/SparkMysqlDemo$.class
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/build/classes/scala/main/com/johnny/demo/SparkMysqlDemo$Row$.class
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/build/classes/scala/main/com/johnny/demo/SparkMysqlDemo$Row.class
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/build/classes/scala/main/com/johnny/demo/SparkMysqlDemo.class
+binary dependencies:
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> /Users/JohnnyLiu/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.3.0/9e2bc021bd38b06da2e0a56fdd9d13935503d94/spark-core_2.11-2.3.0.jar
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> /Users/JohnnyLiu/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-hive_2.11/2.3.0/436734548d06ca063de1cb96e563312dd42cdb94/spark-hive_2.11-2.3.0.jar
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> /Users/JohnnyLiu/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sql_2.11/2.3.0/e19282137294c8a889917c05006931fbcd8d66d2/spark-sql_2.11-2.3.0.jar
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> /Users/JohnnyLiu/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+source dependencies:
+external dependencies:
+class names:
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> com.johnny.demo.SparkMysqlDemo
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> com.johnny.demo.SparkMysqlDemo$
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> com.johnny.demo.SparkMysqlDemo$Row
+   /Users/JohnnyLiu/IdeaProjects/ambari/spark-mysql-demo/src/main/scala/com/johnny/demo/SparkMysqlDemo.scala -> com.johnny.demo.SparkMysqlDemo$Row$

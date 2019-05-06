@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = gradle.ext.jdkVersion
+targetCompatibility = gradle.ext.jdkVersion
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
+
+    test {
+        java {
+            srcDirs = ['src/test/java']
+        }
+    }
+}
+
+//可选（项目初始化时,可用gradle cDirs生成scala及java的src目录）
+task createDirs {
+    sourceSets*.java.srcDirs*.each { it.mkdirs() }
+    sourceSets*.resources.srcDirs*.each { it.mkdirs() }
+}
+
+dependencies {
+    implementation 'org.apache.flume:flume-ng-configuration:' + gradle.ext.flumeVersion
+    implementation 'org.apache.flume:flume-ng-core:' + gradle.ext.flumeVersion
+    implementation 'org.apache.flume:flume-ng-sdk:' + gradle.ext.flumeVersion
+
+    implementation 'org.apache.kafka:kafka_2.10:' + gradle.ext.kafkaVersion
+    implementation 'org.apache.kafka:kafka_2.10:0.8.2-beta'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.johnny.flume.sink.kafka.CustomKafkaSink'
+    }
+}
+

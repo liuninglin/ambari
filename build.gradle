@@ -1,0 +1,12 @@
+allprojects {
+    group 'com.johnny'
+    
+    version '1.0.0'
+}
+
+subprojects{
+    repositories {
+        mavenLocal()
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    }
+}
